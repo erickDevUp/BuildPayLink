@@ -1,0 +1,47 @@
+.minimalist_theme {
+  background-color: white;
+  min-height: 100vh;
+}
+.minimalist_theme .social_icon {
+  color: black;
+  font-size: 25px;
+}
+.minimalist_theme .payment_btn {
+  border-radius: var(--bs-border-radius-pill) !important;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.minimalist_theme .payment_action_icon {
+  color: black;
+  font-size: 21px;
+}
+.minimalist_theme .payment_label {
+  text-align: center;
+  padding-left: 35px;
+}
+.minimalist_theme .payment_img {
+  width: 40px;
+  height: 40px;
+}
+.minimalist_theme .btn_primary {
+  border: none;
+  background-color: #1e1e1e;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.minimalist_theme .btn_primary:hover {
+  background-color: black;
+}
+.minimalist_theme .toast {
+  padding: 5px 0px 5px 0px;
+  background-color: white !important;
+  border: unset !important;
+}
+.minimalist_theme .toast_header {
+  background-color: white !important;
+  border: unset !important;
+  color: rgb(36, 36, 36);
+}
+.minimalist_theme .paylink_link:hover {
+  color: black !important;
+}/*# sourceMappingURL=minimalist.theme.css.map */

@@ -1,0 +1,87 @@
+.minimalist_dark_theme {
+  background-color: #131212;
+  color: white;
+  min-height: 100vh;
+
+  .social_icon {
+    color: white !important;
+    font-size: 25px;
+  }
+
+  .payment_btn {
+    border-radius: var(--bs-border-radius-pill) !important;
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background-color: #212121;
+  }
+
+  .payment_action_icon {
+    color: white;
+    font-size: 21px;
+  }
+
+  .payment_label {
+    text-align: center;
+    padding-left: 35px;
+    color: white;
+  }
+
+  .payment_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .payment_action_btn {
+    border-radius: 6px;
+  }
+
+  .payment_action_btn:hover {
+    background: #212121;
+  }
+
+  .payment_action_btn:active {
+    background: #212121;
+    border: 1px solid #212121;
+  }
+
+  .btn_primary {
+    border: none;
+    background-color: #1e1e1e;
+    color: #eeee;
+    &:hover {
+      background-color: #2b2b2b;
+    }
+  }
+
+  .modal_content {
+    background-color: #131212;
+  }
+
+  .toast {
+    padding: 5px 0px 5px 0px;
+    background-color: #212121 !important;
+  }
+
+  .toast_header {
+    background-color: #212121 !important;
+    border: unset !important;
+    color: white ;
+    .btn_close {
+      filter: invert(1) grayscale(100%) brightness(200%);
+    }
+  }
+
+  .paylink_link:hover {
+    color: white !important;
+  }
+
+
+  .hero_edit_input{
+    background-color: #212121;
+    color: #eee;
+  }
+  .hero_edit_input:focus{
+    border-color:#eee !important;
+  }
+}

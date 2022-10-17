@@ -1,0 +1,65 @@
+.minimalist_dark_theme {
+  background-color: #131212;
+  color: white;
+  min-height: 100vh;
+}
+.minimalist_dark_theme .social_icon {
+  color: white !important;
+  font-size: 25px;
+}
+.minimalist_dark_theme .payment_btn {
+  border-radius: var(--bs-border-radius-pill) !important;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background-color: #212121;
+}
+.minimalist_dark_theme .payment_action_icon {
+  color: white;
+  font-size: 21px;
+}
+.minimalist_dark_theme .payment_label {
+  text-align: center;
+  padding-left: 35px;
+  color: white;
+}
+.minimalist_dark_theme .payment_img {
+  width: 40px;
+  height: 40px;
+}
+.minimalist_dark_theme .payment_action_btn {
+  border-radius: 6px;
+}
+.minimalist_dark_theme .payment_action_btn:hover {
+  background: #212121;
+}
+.minimalist_dark_theme .payment_action_btn:active {
+  background: #212121;
+  border: 1px solid #212121;
+}
+.minimalist_dark_theme .btn_primary {
+  border: none;
+  background-color: #1e1e1e;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.minimalist_dark_theme .btn_primary:hover {
+  background-color: #2b2b2b;
+}
+.minimalist_dark_theme .modal_content {
+  background-color: #131212;
+}
+.minimalist_dark_theme .toast {
+  padding: 5px 0px 5px 0px;
+  background-color: #212121 !important;
+}
+.minimalist_dark_theme .toast_header {
+  background-color: #212121 !important;
+  border: unset !important;
+  color: white;
+}
+.minimalist_dark_theme .toast_header .btn_close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+.minimalist_dark_theme .paylink_link:hover {
+  color: white !important;
+}/*# sourceMappingURL=minimalist-dark.theme.css.map */

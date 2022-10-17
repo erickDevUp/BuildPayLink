@@ -1,0 +1,150 @@
+@use "themes/minimalist.theme";
+@use "themes/minimalist-dark.theme";
+@use "themes/swordfest.theme";
+@use "themes/swordfest-dark.theme";
+
+
+
+
+
+
+
+/* --------------------hero----------------------- */
+
+.hero_image {
+  border-radius: 100%;
+  
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+/* --------------------Payment options----------------------- */
+
+.payment_btn {
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.payment_btn:hover {
+  transform: translate3d(0px, 0px, 0px) scale(1.015);
+}
+
+#payment_options {
+  width: 450px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  #payment_options {
+    width: 90%;
+  }
+}
+
+
+/* --------------------Modal----------------------- */
+
+
+@media (min-width: 576px) {
+  .modal_dialog {
+    width: 350px;
+  }
+}
+
+.close_modal_icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal_header {
+  border: unset !important;
+}
+
+.qr_container {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+/* responsive styling for the success Toast message */
+
+.toast_container {
+  position: fixed !important;
+  z-index: 1060 !important;
+}
+
+@media (max-width: 767px) {
+  .success_toast {
+    width: 100%;
+  }
+
+  .toast {
+    margin: 0px 25px 0px 25px;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .success_toast {
+    width: 300px;
+  }
+
+  .toast_container {
+    right: 10px !important;
+  }
+}
+
+.paylink_link{
+  cursor: pointer;
+  color: unset;
+  :hover{
+    color: unset;
+  }
+}
+/* -------------------edit-------------------------- */
+.btn_edit{
+  width: 150px;
+  margin: 5px;
+}
+
+.hero_edit{
+  width: 300px;
+}
+.hero_edit_input{
+  outline: none !important;
+  cursor: text;
+  resize: none;
+
+}
+.hero_edit_trextArea{
+  height: 8rem !important;
+}
+.social_edit{
+  line-height:0 !important ;
+}
+
+
+
+/*-------------uploadImg-----------------*/
+
+.imgUpload{
+  width: 7.5rem;
+  height: 7.5rem;
+  position: relative;
+.UploadPhoto{
+  /*h-full w-full  border-2 border-gray-300 border-dashed rounded-md object-contain absolute*/
+  border-radius: 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  
+  }
+.UploadInput{
+  /*opacity-0 z-10 absolute h-full w-full mt-1 block file:w-full file:cursor-pointer*/
+  z-index: 999;
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+}

@@ -1,0 +1,388 @@
+.minimalist_theme {
+  background-color: white;
+  min-height: 100vh;
+}
+.minimalist_theme .social_icon {
+  color: black;
+  font-size: 25px;
+}
+.minimalist_theme .payment_btn {
+  border-radius: var(--bs-border-radius-pill) !important;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.minimalist_theme .payment_action_icon {
+  color: black;
+  font-size: 21px;
+}
+.minimalist_theme .payment_label {
+  text-align: center;
+  padding-left: 35px;
+}
+.minimalist_theme .payment_img {
+  width: 40px;
+  height: 40px;
+}
+.minimalist_theme .btn_primary {
+  border: none;
+  background-color: #1e1e1e;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.minimalist_theme .btn_primary:hover {
+  background-color: black;
+}
+.minimalist_theme .toast {
+  padding: 5px 0px 5px 0px;
+  background-color: white !important;
+  border: unset !important;
+}
+.minimalist_theme .toast_header {
+  background-color: white !important;
+  border: unset !important;
+  color: rgb(36, 36, 36);
+}
+.minimalist_theme .paylink_link:hover {
+  color: black !important;
+}
+
+.minimalist_dark_theme {
+  background-color: #131212;
+  color: white;
+  min-height: 100vh;
+}
+.minimalist_dark_theme .social_icon {
+  color: white !important;
+  font-size: 25px;
+}
+.minimalist_dark_theme .payment_btn {
+  border-radius: var(--bs-border-radius-pill) !important;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background-color: #212121;
+}
+.minimalist_dark_theme .payment_action_icon {
+  color: white;
+  font-size: 21px;
+}
+.minimalist_dark_theme .payment_label {
+  text-align: center;
+  padding-left: 35px;
+  color: white;
+}
+.minimalist_dark_theme .payment_img {
+  width: 40px;
+  height: 40px;
+}
+.minimalist_dark_theme .payment_action_btn {
+  border-radius: 6px;
+}
+.minimalist_dark_theme .payment_action_btn:hover {
+  background: #212121;
+}
+.minimalist_dark_theme .payment_action_btn:active {
+  background: #212121;
+  border: 1px solid #212121;
+}
+.minimalist_dark_theme .btn_primary {
+  border: none;
+  background-color: #1e1e1e;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.minimalist_dark_theme .btn_primary:hover {
+  background-color: #2b2b2b;
+}
+.minimalist_dark_theme .modal_content {
+  background-color: #131212;
+}
+.minimalist_dark_theme .toast {
+  padding: 5px 0px 5px 0px;
+  background-color: #212121 !important;
+}
+.minimalist_dark_theme .toast_header {
+  background-color: #212121 !important;
+  border: unset !important;
+  color: white;
+}
+.minimalist_dark_theme .toast_header .btn_close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+.minimalist_dark_theme .paylink_link:hover {
+  color: white !important;
+}
+
+.swordfest_theme {
+  background: linear-gradient(252.44deg, #fcfcfc 0%, #d9d9d9 100%);
+  color: #212121 !important;
+  font-family: "Inter";
+  min-height: 100vh;
+}
+.swordfest_theme #payment_options {
+  width: 448px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .swordfest_theme #payment_options {
+    width: 90%;
+  }
+}
+.swordfest_theme .social_icon {
+  color: #212121;
+  font-size: 25px;
+}
+.swordfest_theme .payment_btn {
+  padding: 16px;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+.swordfest_theme .payment_action_icon {
+  color: #212121;
+  font-size: 18px;
+}
+.swordfest_theme .payment_action_btn {
+  border-radius: 6px;
+}
+.swordfest_theme .payment_action_btn:hover {
+  background: #ebebeb;
+}
+.swordfest_theme .payment_action_btn:active {
+  background: #d7d7d7;
+  border: 1px solid #d7d7d7;
+}
+.swordfest_theme .payment_label {
+  width: 73px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+.swordfest_theme .payment_img {
+  width: 28px;
+  height: 28px;
+}
+.swordfest_theme .btn_primary {
+  border: none;
+  background-color: #167347;
+}
+.swordfest_theme .btn_primary:hover {
+  background-color: #125335;
+}
+.swordfest_theme .modal_content {
+  background-color: #e2e2e2;
+}
+.swordfest_theme .qr_container {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.swordfest_theme .toast {
+  padding: 10px 5px 10px 5px;
+  background-color: white !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  border: 1px solid white;
+}
+.swordfest_theme .toast_header {
+  background-color: white !important;
+  border: unset !important;
+  color: rgb(83, 83, 83);
+}
+.swordfest_theme .paylink_link:hover {
+  color: #212121 !important;
+}
+
+.swordfest_dark_theme {
+  background-color: #111111;
+  color: #DEDEDE !important;
+  font-family: "Inter";
+  min-height: 100vh;
+}
+.swordfest_dark_theme #payment_options {
+  width: 448px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .swordfest_dark_theme #payment_options {
+    width: 90%;
+  }
+}
+.swordfest_dark_theme .social_icon {
+  color: #DEDEDE;
+  font-size: 25px;
+}
+.swordfest_dark_theme .payment_btn {
+  padding: 16px;
+  height: 72px;
+  background: #212121;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+.swordfest_dark_theme .payment_action_icon {
+  color: #DEDEDE;
+  font-size: 18px;
+  margin-top: 4px;
+}
+.swordfest_dark_theme .payment_action_btn {
+  border-radius: 6px;
+}
+.swordfest_dark_theme .payment_action_btn:hover {
+  background: #1A1A1A;
+}
+.swordfest_dark_theme .payment_action_btn:active {
+  background: #171717;
+  border: 1px solid #171717;
+}
+.swordfest_dark_theme .payment_label {
+  width: 73px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DEDEDE;
+}
+.swordfest_dark_theme .payment_img {
+  width: 28px;
+  height: 28px;
+}
+.swordfest_dark_theme .btn_primary {
+  border: none;
+  background-color: #167347;
+}
+.swordfest_dark_theme .btn_primary:hover {
+  background-color: #125335;
+}
+.swordfest_dark_theme .modal_content {
+  background-color: #212121;
+}
+.swordfest_dark_theme .toast {
+  padding: 10px 5px 10px 5px;
+  background-color: #212121 !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  border: 1px solid #212121;
+}
+.swordfest_dark_theme .toast_header {
+  background-color: #212121 !important;
+  border: unset !important;
+  color: #DEDEDE;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+.swordfest_dark_theme .toast_header .btn_close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+.swordfest_dark_theme .paylink_link:hover {
+  color: #DEDEDE !important;
+}
+
+/* --------------------hero----------------------- */
+.hero_image {
+  border-radius: 100%;
+  width: 7.5rem;
+}
+
+/* --------------------Payment options----------------------- */
+.payment_btn {
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.payment_btn:hover {
+  transform: translate3d(0px, 0px, 0px) scale(1.015);
+}
+
+#payment_options {
+  width: 450px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  #payment_options {
+    width: 90%;
+  }
+}
+/* --------------------Modal----------------------- */
+@media (min-width: 576px) {
+  .modal_dialog {
+    width: 350px;
+  }
+}
+.close_modal_icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal_header {
+  border: unset !important;
+}
+
+.qr_container {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+/* responsive styling for the success Toast message */
+.toast_container {
+  position: fixed !important;
+  z-index: 1060 !important;
+}
+
+@media (max-width: 767px) {
+  .success_toast {
+    width: 100%;
+  }
+  .toast {
+    margin: 0px 25px 0px 25px;
+    width: auto;
+  }
+}
+@media (min-width: 768px) {
+  .success_toast {
+    width: 300px;
+  }
+  .toast_container {
+    right: 10px !important;
+  }
+}
+.paylink_link {
+  cursor: pointer;
+  color: unset;
+}
+.paylink_link :hover {
+  color: unset;
+}
+
+/* -------------------edit-------------------------- */
+.btn_edit {
+  background-color: white;
+}
+
+.hero_edit {
+  width: 350px;
+}
+
+.hero_edit_input {
+  outline: none !important;
+  cursor: text;
+  color: white;
+}
+
+.hero_edit_input:focus {
+  border-color: white !important;
+}
+
+.social_edit {
+  line-height: 0 !important;
+}/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,67 @@
+.minimalist_theme {
+  background-color: white;
+  min-height: 100vh;
+
+  .social_icon {
+    color: black;
+    font-size: 25px;
+  }
+
+  .payment_btn {
+    border-radius: var(--bs-border-radius-pill) !important;
+    padding: 0.40rem 0.7rem 0.40rem 0.7rem !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .payment_action_icon {
+    color: black;
+    font-size: 21px;
+  }
+
+  .payment_label {
+    text-align: center;
+    padding-left: 35px;
+  }
+
+  .payment_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn_primary {
+    border: none;
+    background-color: #1e1e1e;
+    color: #eeee;
+
+    &:hover {
+      background-color: black;
+    }
+  }
+
+  .toast {
+    padding: 5px 0px 5px 0px;
+    background-color: white !important;
+    border: unset !important;
+  }
+
+  .toast_header {
+    background-color: white !important;
+    border: unset !important;
+    color: rgb(36, 36, 36);
+  }
+
+
+  .paylink_link:hover {
+    color: black !important;
+  }
+
+  
+  .hero_edit_input{
+    background-color: #fff;
+  }
+  .hero_edit_input:focus{
+    border-color:#fff !important;
+  }
+
+}
